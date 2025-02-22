@@ -6,7 +6,7 @@ import { House, SquareUserRound, Map, Menu, Swords } from "lucide-react";
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="border flex md:items-center md:justify-center items-end">
+    <div className="border-b flex md:items-center md:justify-center items-end w-full">
       <div className="hidden md:w-full md:flex md:items-center md:justify-center">
         <Button
           className="flex flex-col md:flex-row items-center justify-center bg-red-500 text-white hover:bg-cyan-500 m-2"
